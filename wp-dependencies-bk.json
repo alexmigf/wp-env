@@ -1,0 +1,31 @@
+{
+    "name": "project-name/wordpress-dependencies",
+    "description": "My WordPress Dev Project Dependencies",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      },
+      {
+        "type": "package",
+        "package": {
+          "name": "advanced-custom-fields/advanced-custom-fields-pro",
+          "version": "5.8.7",
+          "type": "wordpress-plugin",
+          "dist": {
+            "type": "zip",
+            "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+          },
+          "require": {
+            "composer/installers": "^1.4",
+            "ffraenz/private-composer-installer": "^2.0"
+          }
+        }
+      }
+    ],
+    "require": {
+        "advanced-custom-fields/advanced-custom-fields-pro": "^5.0.0",
+        "symfony/dotenv": "^5.0"
+    }
+  }
+  
