@@ -2,6 +2,6 @@
     "name": "project-name/wordpress",
     "description": "A WordPress Project Dev Environment.",
     "require": {
-        "johnpbloch/wordpress": "^5.3"
+        "johnpbloch/wordpress": "^5.4"
     }
 }
